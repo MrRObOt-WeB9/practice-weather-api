@@ -1,0 +1,35 @@
+@font-face {
+  font-family: roboto-b;
+  src: url(../webfonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: roboto-r;
+  src: url(../webfonts/Roboto-Regular.ttf);
+}
+body {
+  font-family: roboto-r;
+  background-color: rgb(30, 32, 43);
+  color: #fff;
+}
+.my-color {
+  --bs-emphasis-color-rgb: rgb(255, 255, 255);
+  --bs-navbar-toggler-icon-bg: none;
+  --bs-navbar-toggler-border-color: rgba(rgb(30, 32, 43), 0.15);
+}
+.third {
+  background-color: #323544;
+}
+h1 {
+  font-family: roboto-b;
+  font-size: 3rem;
+}
+span.logo {
+  position: relative;
+}
+span.logo::after {
+  content: "tagline goes here";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  font-size: 0.65rem;
+}
